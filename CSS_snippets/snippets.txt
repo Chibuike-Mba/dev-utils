@@ -1,0 +1,19 @@
+make sure to place these files at the beginning of every CSS file
+1. html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+Explanation: This will make sure that your website font-size won't 
+be magnified when a user suddenly views your website using in a mobile 
+device and in a landscape orientation mode.
+
+2. * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Explanation: This will ensure that your browser obeys and adhere to the
+box-model CSS rules.
+
+3. Always remember to download and use a "normalize.css" file to ensure that 
+the default browser use agent styles do not interfer with your CSS styling.

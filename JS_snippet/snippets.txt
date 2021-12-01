@@ -1,0 +1,6 @@
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<![endif]-->
+
+Explanation: This is a JS code that is placed within the <head> of our HTML document to ensure
+that our HTML5 semantic elements are displayed correctly across older browsers like IE-9 or less.

@@ -1,0 +1,9 @@
+@for $i from 1 through 12 {
+    $w: ($i / 12) * 100%;
+    .small-#{$i} {
+        flex-basis: $w; //flex-box width was used here just for illustrative purposes.
+    }
+}
+
+Explanation: A for loop used in SASS to generate automatically 
+the 12 column grid system used in CSS layout styling.
